@@ -3,8 +3,8 @@ import time
 import json
 import httplib, urllib
 import Adafruit_DHT
-deviceId = "DQdFbloR"
-deviceKey = "oh9vM0vefSAR6IBM" 
+deviceId = "DTQcWMhH"
+deviceKey = "GY0RVhDqjV5x5kko" 
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
 	not_connected = 1 
