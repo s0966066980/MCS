@@ -76,3 +76,5 @@ while True:
 
 	else:
 		print('Button released')
+		payload = {"datapoints":[{"dataChnId":"SwitchStatus","values":{"value":SwitchStatus}}]}
+		post_to_mcs(payload)
